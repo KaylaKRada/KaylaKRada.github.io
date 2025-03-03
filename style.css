@@ -8,7 +8,7 @@
     --border-gradient-onyx: linear-gradient(to bottom right, hsl(50, 100%, 95%) 0%, hsla(50, 100%, 95%, 0) 50%); /* Very soft border */
     --text-gradient-yellow: linear-gradient(to right, hsl(45, 100%, 90%), hsl(35, 100%, 90%)); /* Soft yellow text gradient */
 
-    --jet: hsl(0, 0%, 80%); /* Light gray for text */
+    --jet: hsl(100, 100%, 100%); /* Light gray for text */
     --onyx: hsl(40, 30%, 85%); /* Light beige-gray */
     --eerie-black1: hsl(50, 40%, 90%); /* Light pastel gray */
     --eerie-black2: hsl(40, 50%, 85%); /* Very light gray */
