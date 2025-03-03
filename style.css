@@ -1,27 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-    --bg-gradient-onyx: linear-gradient(to bottom right, hsl(240, 1%, 95%) 3%, hsl(0, 0%, 85%) 97%);
-    --bg-gradient-jet: linear-gradient(to bottom right, hsla(240, 1%, 90%, .251) 3%, hsla(240, 2%, 80%, 0) 100%), hsl(240, 2%, 85%);
-    --bg-gradient-yellow1: linear-gradient(to bottom right, hsl(50, 100%, 80%) 0%, hsla(36, 100%, 85%, 0) 50%);
-    --bg-gradient-yellow2: linear-gradient(135deg, hsla(50, 100%, 85%, .251) 0%, hsla(35, 100%, 80%, 0) 59.86%), hsl(240, 2%, 85%);
-    --border-gradient-onyx: linear-gradient(to bottom right, hsl(0, 0%, 85%) 0%, hsla(0, 0%, 85%, 0) 50%);
-    --text-gradient-yellow: linear-gradient(to right, hsl(50, 100%, 85%), hsl(45, 100%, 75%));
+    --bg-gradient-onyx: linear-gradient(to bottom right, hsl(50, 100%, 90%) 3%, hsl(40, 100%, 85%) 97%);
+    --bg-gradient-jet: linear-gradient(to bottom right, hsla(50, 100%, 80%, .251) 3%, hsla(40, 100%, 75%, 0) 100%), hsl(50, 100%, 85%);
+    --bg-gradient-yellow1: linear-gradient(to bottom right, hsl(45, 100%, 85%) 0%, hsla(35, 100%, 80%, 0) 50%);
+    --bg-gradient-yellow2: linear-gradient(135deg, hsla(50, 100%, 90%, .251) 0%, hsla(35, 100%, 80%, 0) 59.86%), hsl(50, 100%, 80%);
+    --border-gradient-onyx: linear-gradient(to bottom right, hsl(50, 100%, 90%) 0%, hsla(50, 100%, 90%, 0) 50%);
+    --text-gradient-yellow: linear-gradient(to right, hsl(45, 100%, 80%), hsl(35, 100%, 85%));
 
-    --jet: hsl(0, 0%, 45%);
-    --onyx: hsl(240, 1%, 70%);
-    --eerie-black1: hsl(240, 2%, 75%);
-    --eerie-black2: hsl(240, 2%, 80%);
-    --smoky-black: hsl(0, 0%, 50%);
+    --jet: hsl(0, 0%, 70%);
+    --onyx: hsl(40, 30%, 70%);
+    --eerie-black1: hsl(50, 40%, 85%);
+    --eerie-black2: hsl(40, 50%, 80%);
+    --smoky-black: hsl(0, 0%, 60%);
     --white1: hsl(0, 0%, 100%);
     --white2: hsl(0, 0%, 98%);
-    --orange-yellow-crayola: hsl(50, 100%, 75%);
-    --vegas-gold: hsl(50, 54%, 65%);
+    --orange-yellow-crayola: hsl(45, 100%, 80%);
+    --vegas-gold: hsl(45, 80%, 70%);
     --light-gray: hsl(0, 0%, 90%);
     --light-gray70: hsla(0, 0%, 90%, .7);
-    --bittersweet-shimmer: hsl(350, 43%, 70%);
+    --bittersweet-shimmer: hsl(340, 40%, 75%);
 
     --ff-poppins: 'Poppins', sans-serif;
+}
 
     --fs1: 24px;
     --fs2: 18px;
