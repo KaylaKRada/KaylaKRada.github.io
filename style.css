@@ -1,52 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-    --bg-gradient-onyx: linear-gradient(to bottom right, hsl(50, 100%, 90%) 3%, hsl(40, 100%, 85%) 97%);
-    --bg-gradient-jet: linear-gradient(to bottom right, hsla(50, 100%, 80%, .251) 3%, hsla(40, 100%, 75%, 0) 100%), hsl(50, 100%, 85%);
-    --bg-gradient-yellow1: linear-gradient(to bottom right, hsl(45, 100%, 85%) 0%, hsla(35, 100%, 80%, 0) 50%);
-    --bg-gradient-yellow2: linear-gradient(135deg, hsla(50, 100%, 90%, .251) 0%, hsla(35, 100%, 80%, 0) 59.86%), hsl(50, 100%, 80%);
-    --border-gradient-onyx: linear-gradient(to bottom right, hsl(50, 100%, 90%) 0%, hsla(50, 100%, 90%, 0) 50%);
-    --text-gradient-yellow: linear-gradient(to right, hsl(45, 100%, 80%), hsl(35, 100%, 85%));
+    --bg-gradient-onyx: linear-gradient(to bottom right, hsl(50, 100%, 95%) 3%, hsl(40, 100%, 90%) 97%); /* Softer pastel yellow gradient */
+    --bg-gradient-jet: linear-gradient(to bottom right, hsla(50, 100%, 85%, .251) 3%, hsla(40, 100%, 75%, 0) 100%), hsl(50, 100%, 90%); /* Soft background */
+    --bg-gradient-yellow1: linear-gradient(to bottom right, hsl(45, 100%, 95%) 0%, hsla(35, 100%, 85%, 0) 50%); /* Subtle pastel yellow gradient */
+    --bg-gradient-yellow2: linear-gradient(135deg, hsla(50, 100%, 95%, .251) 0%, hsla(35, 100%, 85%, 0) 59.86%), hsl(50, 100%, 85%); /* Soft yellowish glow */
+    --border-gradient-onyx: linear-gradient(to bottom right, hsl(50, 100%, 95%) 0%, hsla(50, 100%, 95%, 0) 50%); /* Very soft border */
+    --text-gradient-yellow: linear-gradient(to right, hsl(45, 100%, 90%), hsl(35, 100%, 90%)); /* Soft yellow text gradient */
 
-    --jet: hsl(0, 0%, 70%);
-    --onyx: hsl(40, 30%, 70%);
-    --eerie-black1: hsl(50, 40%, 85%);
-    --eerie-black2: hsl(40, 50%, 80%);
-    --smoky-black: hsl(0, 0%, 60%);
-    --white1: hsl(0, 0%, 100%);
-    --white2: hsl(0, 0%, 98%);
-    --orange-yellow-crayola: hsl(45, 100%, 80%);
-    --vegas-gold: hsl(45, 80%, 70%);
-    --light-gray: hsl(0, 0%, 90%);
-    --light-gray70: hsla(0, 0%, 90%, .7);
-    --bittersweet-shimmer: hsl(340, 40%, 75%);
+    --jet: hsl(0, 0%, 80%); /* Light gray for text */
+    --onyx: hsl(40, 30%, 85%); /* Light beige-gray */
+    --eerie-black1: hsl(50, 40%, 90%); /* Light pastel gray */
+    --eerie-black2: hsl(40, 50%, 85%); /* Very light gray */
+    --smoky-black: hsl(0, 0%, 75%); /* Medium soft gray */
+    --white1: hsl(0, 0%, 100%); /* Pure white */
+    --white2: hsl(0, 0%, 98%); /* Off white for softer contrast */
+    --orange-yellow-crayola: hsl(45, 100%, 95%); /* Very light, pastel yellow */
+    --vegas-gold: hsl(45, 80%, 75%); /* Soft gold */
+    --light-gray: hsl(0, 0%, 95%); /* Light gray background */
+    --light-gray70: hsla(0, 0%, 95%, .7); /* Transparent light gray */
+    --bittersweet-shimmer: hsl(340, 40%, 85%); /* Light pastel pink */
 
     --ff-poppins: 'Poppins', sans-serif;
 }
 
-    --fs1: 24px;
-    --fs2: 18px;
-    --fs3: 17px;
-    --fs4: 16px;
-    --fs5: 15px;
-    --fs6: 14px;
-    --fs7: 13px;
-    --fs8: 12px;
+--fs1: 24px;
+--fs2: 18px;
+--fs3: 17px;
+--fs4: 16px;
+--fs5: 15px;
+--fs6: 14px;
+--fs7: 13px;
+--fs8: 12px;
 
-    --fw300: 300;
-    --fw400: 400;
-    --fw500: 500;
-    --fw600: 600;
+--fw300: 300;
+--fw400: 400;
+--fw500: 500;
+--fw600: 600;
 
-    --shadow1: -4px 8px 24px hsla(0, 0%, 0%, .25);
-    --shadow2: 0px 16px 30px hsla(0, 0%, 0%, .25);
-    --shadow3: 0px 16px 40px hsla(0, 0%, 0%, .25);
-    --shadow4: 0px 25px 50px hsla(0, 0%, 0%, .15);
-    --shadow5: 0px 24px 80px hsla(0, 0%, 0%, .25);
+--shadow1: -4px 8px 24px hsla(0, 0%, 0%, .15); /* Soft shadow */
+--shadow2: 0px 16px 30px hsla(0, 0%, 0%, .15); /* Subtle shadow */
+--shadow3: 0px 16px 40px hsla(0, 0%, 0%, .1); /* Light shadow */
+--shadow4: 0px 25px 50px hsla(0, 0%, 0%, .1); /* Soft shadow */
+--shadow5: 0px 24px 80px hsla(0, 0%, 0%, .2); /* Very light shadow */
 
-    --transition1: .25s ease;
-    --transition2: .5s ease-in-out;
-}
+--transition1: .25s ease;
+--transition2: .5s ease-in-out;
 
 *, *::before, *::after {
     margin: 0;
