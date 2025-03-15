@@ -1,0 +1,10 @@
+function showFortune() {
+    let fortunes = [
+        "You will have a great day!",
+        "A big opportunity is coming soon.",
+        "Hard work will pay off soon!",
+        "Expect good news today!"
+    ];
+    let fortune = fortunes[Math.floor(Math.random() * fortunes.length)];
+    alert(fortune);
+}
