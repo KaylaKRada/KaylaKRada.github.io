@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\css",
+    "\\images\\project",
+    "\\js",
+    "\\sass"
   ],
-  "SelectedNode": "\\C:\\Users\\kayla\\source\\repos\\KaylaKRadaFinal",
+  "SelectedNode": "\\css\\tooplate-style.css",
   "PreviewInSolutionExplorer": false
 }
