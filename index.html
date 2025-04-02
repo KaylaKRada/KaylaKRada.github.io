@@ -38,6 +38,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
+            <!-- Navigation Bar -->
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
@@ -91,28 +92,27 @@
                 <i class='uil uil-file-alt'></i> Download Resume
             </a>
 
+            <!-- Project #1 Fortune Cookie (Java 1)-->
             <button onclick="showFortune()" class="btn custom-btn custom-btn-bg custom-btn-link">
                 Get your fortune cookie ;)
             </button>
 
-            <!-- Fortune Display Area -->
             <p id="fortune-message" style="font-weight: bold; margin-top: 10px;"></p>
 
-            <!-- JavaScript -->
             <script>
                 function showFortune() {
                     const fortunes = [
-                        "You will have a great day!",
-                        "An exciting opportunity is coming your way.",
-                        "Good fortune will find you soon.",
-                        "A pleasant surprise awaits you.",
-                        "Believe in yourself and success will follow."
+                        "Your kindness will be repaid in ways you never imagined",
+                        "The answer you seek is hidden in plain sight... or your junk drawer",
+                        "A smile is your superpower - use it wisely",
+                        "You will debug something successfully.. but only after asking for help",
+                        "An unexpected detour may take you exactly where you need to be",
+                        "The best way to predict the future is to create it",
+                        "You will find a solution to a problem that has been bugging you",
+                        "You will soon find joy in the simple things - pay attention",
                     ];
-
-                    // Pick a random fortune
                     const randomFortune = fortunes[Math.floor(Math.random() * fortunes.length)];
 
-                    // Display it inside the paragraph tag
                     document.getElementById("fortune-message").innerText = randomFortune;
                 }
             </script>
@@ -139,6 +139,8 @@
                     </div>
 
                     <div class="owl-carousel owl-theme">
+
+                        <!-- Project #2 About me website (web design)-->
                         <div class="item">
                             <div class="project-info">
                                 <a href="https://github.com/kaylakrada/AboutMeSite" target="_blank">
@@ -151,6 +153,7 @@
                             </div>
                         </div>
 
+                        <!-- Project #3 Steed Arena (System Analysis)-->
                         <div class="item">
                             <div class="project-info">
                                 <a href="https://github.com/kaylakrada/SteedArena" target="_blank">
@@ -163,6 +166,7 @@
                             </div>
                         </div>
 
+                        <!-- Project #4 Bearded Pixels Admin site (Java 2)-->
                         <div class="item">
                             <div class="project-info">
                                 <a href="https://github.com/kaylakrada/BeardedPixels" target="_blank">
@@ -175,6 +179,7 @@
                             </div>
                         </div>
 
+                        <!-- Project #5 Ashley Madison Hack (app security)-->
                         <div class="item">
                             <div class="project-info">
                                 <a href="https://github.com/kaylakrada/AshleyMadisonHack" target="_blank">
@@ -187,6 +192,7 @@
                             </div>
                         </div>
 
+                        <!-- Project #6 Bearded Pixels Database (Modern Databases)-->
                         <div class="item">
                             <div class="project-info">
                                 <a href="https://github.com/kaylakrada/BeardedPixelsDatabase" target="_blank">
@@ -199,6 +205,7 @@
                             </div>
                         </div>
 
+                        <!-- Project #7 Home Lab (Capstone)-->
                         <div class="item">
                             <div class="project-info">
                                 <a href="https://github.com/kaylakrada/Proxmox" target="_blank">
@@ -211,6 +218,7 @@
                             </div>
                         </div>
 
+                        <!-- Project #8 Blender art room (Independant Study)-->
                         <div class="item">
                             <div class="project-info">
                                 <img src="images/project/tbd1.jpg" class="img-fluid" alt="project image">
@@ -224,7 +232,7 @@
         </div>
     </section>
 
-    <!-- FEATURES -->
+    <!-- Resume -->
     <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
         <div class="container">
             <div class="row">
@@ -317,7 +325,7 @@
         </div>
     </section>
 
-    <!-- CONTACT -->
+    <!-- CONTACT ME -->
     <section class="contact py-5" id="contact">
         <div class="container">
             <div class="row">
