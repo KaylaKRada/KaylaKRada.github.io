@@ -97,13 +97,13 @@
                 Get your fortune cookie ;)
             </button>
 
-            <p style="margin-top: 10px;">
+            <p id="fortune-message" style="font-weight: bold; margin-top: 10px;"></p>
+
+            <p id="github-link" style="margin-top: 10px; display: none;">
                 <a href="https://github.com/KaylaKRada/FortuneCookie" target="_blank" style="font-weight: 500; text-decoration: underline;">
-                    View this project on GitHub → Get your fortune cookie ;)
+                    View this project on GitHub →
                 </a>
             </p>
-
-            <p id="fortune-message" style="font-weight: bold; margin-top: 10px;"></p>
 
             <script>
                 function showFortune() {
@@ -117,10 +117,11 @@
                         "You will find a solution to a problem that has been bugging you",
                         "You will soon find joy in the simple things - pay attention",
                     ];
-                    const randomFortune = fortunes[Math.floor(Math.random() * fortunes.length)];
+                const randomFortune = fortunes[Math.floor(Math.random() * fortunes.length)];
 
-                    document.getElementById("fortune-message").innerText = randomFortune;
-                }
+                document.getElementById("fortune-message").innerText = randomFortune;
+                document.getElementById("github-link").style.display = "block"; // Reveals the link
+                    }
             </script>
         </div>
     </div>
