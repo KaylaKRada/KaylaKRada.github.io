@@ -50,7 +50,7 @@ This portfolio includes 8+ curated projects, including my **CSCI 299 Capstone Fi
 - [x] C.C.A.R.R. Breakdown for Each  
 - [x] Online Access via GitHub Pages  
 - [x] Intro Page (You're reading it!)  
-- [x] Career Action Plan  (https://github.com/KaylaKRada/KaylaKRada.github.io/blob/main/Career%20Action%20Plan.pdf)
+- [x] Career Action Plan [Career Action Plan](https://github.com/KaylaKRada/KaylaKRada.github.io/blob/main/Career%20Action%20Plan.pdf)
 - [x] Resume & Cover Letter  
 - [x] Source/Version Control via Git  
 - [x] Final Presentation & Showcase  
